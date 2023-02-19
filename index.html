@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
+    <script src="./scripts/Q&A.js"></script>
+    <title>Netflix Turkey - Watch TV Shows Online, Watch Movies Online</title>
+</head>
+<body>
+    <section id="main-showcase">
+        <header>
+
+            <img class="logo" src="./images/Logonetflix.png" alt="">
+
+            <div id="header-buttons">
+                <select name="lang-select" class="lang-select">
+                    <option value="en">English</option>
+                    <option value="tr">Turkish</option>
+                </select>
+                <button class="button1">Sign In</button>
+            </div>
+            
+        </header>
+        <div id="showcase">
+            <h1>Unlimited movies, TV shows, and more.</h1>
+            <h2>Watch anywhere. Cancel anytime.</h2>
+            <div class="subscription">
+                <p>Ready to watch? Enter your email to create or restart your membership.</p>
+                <form>
+                    <input type="email" placeholder="Email Address">
+                    <button class="button1" type="submit">Get Started ></button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <section class="info">
+        <div class="info-wrapper">
+            
+            <div class="information">
+                <h1>Enjoy on your TV.</h1>
+                <h2>Watch on Smart TVs, Playstation, Xbox, Chromecast, Apple TV, Blu-ray players, and more.</h2>
+            </div>
+
+            <div class="info-image" id="info-image-1">
+                <img src="./images/tv.png" alt="">
+                <video id="info-video-1" src="./images/videotv.m4v" playsinline autoplay loop muted></video>
+            </div>
+
+        </div>
+    </section>
+    <section class="info">
+        <div class="info-wrapper">
+            <div class="info-image" id="info-image-2">
+                <div id="info-image-wrapper">
+                    <img src="./images/mobile-0819.jpg" alt="">
+                    <div id="app-install">
+                        <img id="boxshot" src="./images/boxshot.png" alt="">
+                        <div id="app-installment">
+                            <h3>Stranger Things</h3>
+                            <p>Downloading...</p>
+                        </div>
+                        <img id="install-icon" src="./images/download-icon.gif" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="information">
+                <h1>Download your shows to watch offline.</h1>
+                <h2>Save your favorites easily and always have something to watch.</h2>
+            </div>
+        </div>
+    </section>
+    <section class="info">
+        <div class="info-wrapper">
+            <div class="information">
+                <h1>Watch everywhere.</h1>
+                <h2>Stream unlimited movies and TV shows on your phone, tablet, laptop, and TV without paying more.</h2>
+            </div>
+            <div class="info-image" id="info-image-3">
+                <img src="./images/device-pile.png" alt="">
+                <video id="info-video-3" src="./images/video-devices.m4v" playsinline autoplay loop muted></video>
+            </div>
+        </div>
+    </section>
+    <section class="info">
+        <div class="info-wrapper">
+            <div class="info-image" id="info-image-4">
+                <img src="./images/netflixkids.png" alt="">
+            </div>
+            <div class="information">
+                <h1>Create profiles for kids.</h1>
+                <h2>Send kids on adventures with their favorite characters in a space made just for them—free with your membership.</h2>
+            </div>
+        </div>
+    </section>
+    <section class="info" id="QA">
+        <div class="info-wrapper">
+            <h1>Frequently Asked Questions</h1>
+            <div id="qa-buttons">
+                <div class="faq-card">
+                    <button onclick="dropcard(this)">
+                        <h2>What is Netflix?</h2>
+                        <svg class="thin-x" viewBox="0 0 26 26">
+                            <path d="M10.5 9.3L1.8 0.5 0.5 1.8 9.3 10.5 0.5 19.3 1.8 20.5 10.5 11.8 19.3 20.5 20.5 19.3 11.8 10.5 20.5 1.8 19.3 0.5 10.5 9.3Z"></path>
+                        </svg>
+                    </button>
+                    <div class="faq-info">
+                        <p>Netflix is a streaming service that offers a wide variety of award-winning TV shows, movies, anime, documentaries, and more on thousands of internet-connected devices.</p>
+                        <br>
+                        <br>
+                        <p>You can watch as much as you want, whenever you want without a single commercial – all for one low monthly price. There's always something new to discover and new TV shows and movies are added every week!</p>
+                    </div>
+                </div>
+
+                <div class="faq-card">
+                    <button onclick="dropcard(this)">
+                        <h2>How much does Netflix cost?</h2>
+                        <svg class="thin-x" viewBox="0 0 26 26">
+                            <path d="M10.5 9.3L1.8 0.5 0.5 1.8 9.3 10.5 0.5 19.3 1.8 20.5 10.5 11.8 19.3 20.5 20.5 19.3 11.8 10.5 20.5 1.8 19.3 0.5 10.5 9.3Z"></path>
+                        </svg>
+                    </button>
+                    <div class="faq-info">
+                        <p>Watch Netflix on your smartphone, tablet, Smart TV, laptop, or streaming device, all for one fixed monthly fee. Plans range from 63.99 TL to 130.99 TL a month. No extra costs, no contracts.</p>
+                    </div>
+                </div>
+
+                <div class="faq-card">
+                    <button onclick="dropcard(this)">
+                        <h2>Where can I watch?</h2>
+                        <svg class="thin-x" viewBox="0 0 26 26">
+                            <path d="M10.5 9.3L1.8 0.5 0.5 1.8 9.3 10.5 0.5 19.3 1.8 20.5 10.5 11.8 19.3 20.5 20.5 19.3 11.8 10.5 20.5 1.8 19.3 0.5 10.5 9.3Z"></path>
+                        </svg>
+                    </button>
+                    <div class="faq-info">
+                        <p>Watch anywhere, anytime. Sign in with your Netflix account to watch instantly on the web at netflix.com from your personal computer or on any internet-connected device that offers the Netflix app, including smart TVs, smartphones, tablets, streaming media players and game consoles.</p>
+                        <br>
+                        <br>
+                        <p>You can also download your favorite shows with the iOS, Android, or Windows 10 app. Use downloads to watch while you're on the go and without an internet connection. Take Netflix with you anywhere.</p>
+                    </div>
+                </div>
+
+                <div class="faq-card">
+                    <button onclick="dropcard(this)">
+                        <h2>How do I cancel?</h2>
+                        <svg class="thin-x" viewBox="0 0 26 26">
+                            <path d="M10.5 9.3L1.8 0.5 0.5 1.8 9.3 10.5 0.5 19.3 1.8 20.5 10.5 11.8 19.3 20.5 20.5 19.3 11.8 10.5 20.5 1.8 19.3 0.5 10.5 9.3Z"></path>
+                        </svg>
+                    </button>
+                    <div class="faq-info">
+                        <p>Netflix is flexible. There are no pesky contracts and no commitments. You can easily cancel your account online in two clicks. There are no cancellation fees – start or stop your account anytime.</p>
+                    </div>
+                </div>
+
+                <div class="faq-card">
+                    <button onclick="dropcard(this)">
+                        <h2>What can I watch on Netflix?</h2>
+                        <svg class="thin-x" viewBox="0 0 26 26">
+                            <path d="M10.5 9.3L1.8 0.5 0.5 1.8 9.3 10.5 0.5 19.3 1.8 20.5 10.5 11.8 19.3 20.5 20.5 19.3 11.8 10.5 20.5 1.8 19.3 0.5 10.5 9.3Z"></path>
+                        </svg>
+                    </button>
+                    <div class="faq-info">
+                        <p>Netflix has an extensive library of feature films, documentaries, TV shows, anime, award-winning Netflix originals, and more. Watch as much as you want, anytime you want.</p>
+                    </div>
+                </div>
+
+                <div class="faq-card">
+                    <button onclick="dropcard(this)">
+                        <h2>Is Netflix good for kids?</h2>
+                        <svg class="thin-x" viewBox="0 0 26 26">
+                            <path d="M10.5 9.3L1.8 0.5 0.5 1.8 9.3 10.5 0.5 19.3 1.8 20.5 10.5 11.8 19.3 20.5 20.5 19.3 11.8 10.5 20.5 1.8 19.3 0.5 10.5 9.3Z"></path>
+                        </svg>
+                    </button>
+                    <div class="faq-info">
+                        <p>The Netflix Kids experience is included in your membership to give parents control while kids enjoy family-friendly TV shows and movies in their own space.</p>
+                        <br>
+                        <br>
+                        <p>Kids profiles come with PIN-protected parental controls that let you restrict the maturity rating of content kids can watch and block specific titles you don’t want kids to see.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="subscription">
+                <p>Ready to watch? Enter your email to create or restart your membership.</p>
+                <form>
+                    <input type="email" placeholder="Email Address">
+                    <button class="button1" type="submit">Get Started ></button>
+                </form>
+            </div>
+            
+        </div>
+    </section>
+    <footer>
+        <div class="info-wrapper">
+            <h4>Questions? Call 0850-390-7444</h4>
+            <ul>
+                <li><a href="#">FAQ</a></li>
+                <li><a href="#">Help Center</a></li>
+                <li><a href="#">Account</a></li>
+                <li><a href="#">Media Center</a></li>
+                <li><a href="#">Investor Relations</a></li>
+                <li><a href="#">Jobs</a></li>
+                <li><a href="#">Redeem Gift Cards</a></li>
+                <li><a href="#">Ways to Watch</a></li>
+                <li><a href="#">Terms of Use</a></li>
+                <li><a href="#">Privacy</a></li>
+                <li><a href="#">Cookie Preferences</a></li>
+                <li><a href="#">Corporate Information</a></li>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#">Speed Test</a></li>
+                <li><a href="#">Legal Notices</a></li>
+                <li><a href="#">Only on Netflix</a></li>
+            </ul>
+            <select name="lang-select" class="lang-select">
+                <option value="en">English</option>
+                <option value="tr">Turkish</option>
+            </select>
+            <p>Netflix Turkey</p>
+        </div>
+    </footer>
+</body>
+</html>

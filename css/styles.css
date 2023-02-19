@@ -1,0 +1,482 @@
+h1,h2,h3,p{
+    color: white;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: black;
+}
+
+.button1{
+    border: 0;
+    border-radius: 3px;
+    background-color: #e20813;
+    color: white;
+}
+
+.thin-x{
+    fill: #fff;
+    width: 25px;
+    transform: translateY(10%) rotate(45deg);
+}
+
+.lang-select{
+    padding: 8px 16px 8px 16px;
+    background-color: rgba(0,0,0,0.7);
+    color: white;
+    border: 1px solid white;
+    border-radius: 2.5px;
+    font-weight:500;
+}
+
+section#main-showcase{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    background-color: rgba(0,0,0,0.6);
+    background-image: url(../images/background.jpg);
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+div#showcase{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 750px;
+    height: 100%;
+    text-align: center;
+}
+
+div#showcase h1{
+    box-sizing: border-box;
+    font-size: 64px;
+    margin-bottom: 0;
+    padding: 0;
+}
+
+div#showcase h2{
+    margin: 10px 0;
+    font-size: 27px;
+    font-weight: 300;
+    padding: 0;
+}
+
+.subscription{
+    width: 750px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.subscription p{
+    font-size: 20px;
+    text-align: center;
+}
+.subscription form{
+    display: flex;
+    width: 100%;
+}
+.subscription form input{
+    box-sizing: border-box;
+    border-radius: 3px 0 0 3px;
+    border: 1px solid #737373;
+    width: 66.66%;
+}
+.subscription form button{
+    box-sizing: border-box;
+    width: 33.33%;
+    padding: 15px 0px;
+    font-size: 30px;
+    border-radius: 0 3px 3px 0;
+
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    box-sizing: border-box;
+    width:100%;
+    margin-top: 25px;
+    padding: 0px 50px;
+}
+
+header img.logo{
+    width: 175px;
+    height: auto;
+}
+header #header-buttons button{
+    font-size: 16px;
+    padding: 8px 16px;
+    margin-left: 25px;
+}
+
+.info-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1100px;
+    margin: auto;
+    gap: 60px;
+    padding: 70px 45px;
+    width: 100%;
+}
+
+section.info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 10px solid #222222;
+    width: 100%;
+}
+
+section.info .information{
+    width: 52%;
+}
+
+section.info .information h1, #QA h1{
+    font-size: 48px;
+    margin: 0;
+}
+section.info .information h2, #QA h2{
+    font-size: 27px;
+    font-weight: 300;
+}
+
+section.info .info-image{
+    width: 48%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: -1;
+}
+
+section.info .info-image #info-image-wrapper{
+    position: relative;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    right: 15%;
+    top: -25px;
+}
+
+section.info .info-image img{
+    width: 100%;
+    object-fit:contain ;
+}
+
+section.info .info-wrapper .info-image #info-video-1{
+    width: 73%;
+    object-fit: contain;
+    position: absolute;
+    top: 20%;
+    z-index: -1;
+}
+
+section.info .info-wrapper .info-image #info-video-3{
+    width: 65%;
+    object-fit: contain;
+    position: absolute;
+    z-index: -1;
+    top: 10%;
+}
+
+section.info .info-wrapper .info-image#info-image-2 #app-install{
+    position: absolute;
+    bottom: 10%;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    border: 2px solid #404040;
+    background-color: #000000;
+    border-radius: 10px;
+    padding: 7px 10px;
+    width: max(250px, 60%);
+    height: 80px;
+}
+
+#app-install-wrapper{
+    position: relative;
+}
+
+#app-install img#boxshot{
+    height: 100%;
+    width:max-content;
+}
+
+#app-install img#install-icon{
+    width: 45px;
+}
+
+#app-install #app-installment{
+    flex: 1;
+}
+
+#app-install #app-installment h3{
+    font-size: 0.9em;
+    margin: 0;
+}
+
+#app-install #app-installment p{
+    font-size: 0.9em;
+    margin: 0;
+    color: #0062cd;
+}
+
+#QA .info-wrapper{
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+#QA .info-wrapper h1{
+    text-align: center;
+}
+
+#qa-buttons{
+    width: 74%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+#qa-buttons .faq-card{
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+#qa-buttons button{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    border: 0;
+    border-radius: 0;
+    padding: 0px 30px;
+    background-color: #303030;
+    color: #fff;
+    width: 100%;
+}
+
+#qa-buttons .faq-info{
+    display: none;
+    background-color: #303030;
+    margin-top: 1px;
+    padding: 35px 30px;
+}
+.faq-info p{
+    margin: 0;
+    font-size: 27px;
+}
+
+footer{
+    border-top: 10px solid #222222;
+}
+
+footer .info-wrapper{
+    display: block;
+    box-sizing: border-box;
+    max-width: 1000px;
+}
+
+footer h4{
+    color: #737373;
+    margin: 0;
+    margin-bottom: 30px;
+    font-weight: 400;
+}
+footer p{
+    color: #737373;
+    font-size: .8rem;
+    margin: 2em 0em 0em 0em;
+}
+
+footer ul{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+footer ul li{
+    color: #737373;
+    display: inline-block;
+    list-style: none;
+    box-sizing: border-box;
+    min-width: 100px;
+    width: 24%;
+    padding-right: 20px;
+    margin-bottom: 15px;
+}
+
+footer ul li a{
+    color: #737373;
+    text-decoration: none;
+    font-size: .8rem;
+}
+
+footer ul li a:hover{
+    text-decoration: underline;
+}
+
+footer .lang-select{
+    margin: 20px 0px 0px 0px;
+    height: 50px;
+    width: 130px;
+    color: #999;
+    text-align: center;
+    border: #303030 solid 1px;
+}
+
+@media(max-width:1450px){
+    div#showcase{
+        width: min(660px, 90%);
+    }
+    div#showcase h1{
+        font-size: 50px;
+    }
+    .subscription{
+        width: 660px;
+    }
+    .subscription form button{
+        font-size: 1.6rem;
+    }
+    header img.logo{
+        width: 140px;
+    }
+    section.info .info-wrapper .info-image#info-image-2 #app-install{
+        padding: 5px 10px;
+        height: 75px;
+    }
+
+}
+
+@media(max-width:950px){
+    .subscription{
+        width: min(500px, 100%);
+    }
+    .subscription p{
+        font-size: 24px;
+        padding: 0px 10px;
+        margin: 0;
+        margin-bottom: 10px;
+    }
+    .subscription form{
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+    .subscription form input{
+        width: 100%;
+        height: 4rem;
+        border-radius: 3px;
+    }
+    .subscription form button{
+        width: 130px;
+        font-size: 1rem;
+        border-radius: 2px;
+        padding: 10px 0px;
+    }
+    header{
+        padding: 0px 40px;
+    }
+    header img.logo{
+        width: 100px;
+        height: auto;
+    }
+    .info-wrapper{
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 0;
+    }
+    section.info .information{
+        width: 100%;
+        text-align: center;
+    }
+    section.info .information h1, #QA h1{
+        font-size: 38px;
+    }
+    section.info .information h2, #QA h2{
+        font-size: 20px;
+    }
+    section.info .info-image{
+        max-width: 600px;
+        width: 100%;
+    }
+    section.info .info-image#info-image-1{
+        top: -50px;
+    }
+    section.info .info-image #info-image-wrapper{
+        right: 0px;
+    }
+    section.info:nth-child(odd) .info-wrapper{
+        flex-direction: column-reverse;
+    }
+    #QA .info-wrapper{
+        gap: 0px;
+    }
+    #QA #qa-buttons{
+        margin: 30px 0px;
+        width: 90%;
+    }
+    .thin-x{
+        width: 20px;
+    }
+}
+
+@media(max-width:740px){
+    .subscription p{
+        font-size: 18px;
+    }
+    .subscription form input{
+        height: 3rem;
+    }
+}
+
+@media(max-width:550px){
+    header{
+        padding: 0;
+        width: 90%;
+    }
+    header img.logo{
+        width: 90px;
+    }
+    .lang-select{
+        padding: 4px 10px;
+    }
+    header #header-buttons button{
+        font-size: 14px;
+        padding: 4px 9px;
+        margin-left: 10px;
+    }
+    section#main-showcase{
+        height: 77vh;
+    }
+    div#showcase h1{
+        font-size: 27px;
+    }
+    section.info .information h1, #QA h1{
+        font-size: 25px;
+    }
+    section.info .information h2, #QA h2, div#showcase h2{
+        font-size: 18px;
+    }
+    div#showcase h2{
+        margin: 20px 0px;
+    }
+    #QA .info-wrapper{
+        padding: 50px 40px;
+    }
+    #QA #qa-buttons{
+        width: 100vw;
+    }
+}
