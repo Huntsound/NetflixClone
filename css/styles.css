@@ -22,6 +22,7 @@ body{
     fill: #fff;
     width: 25px;
     transform: translateY(10%) rotate(45deg);
+    transition: transform 0.05s ease;
 }
 
 .lang-select{
