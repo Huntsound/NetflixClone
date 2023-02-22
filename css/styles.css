@@ -432,6 +432,12 @@ footer .lang-select{
     .thin-x{
         width: 20px;
     }
+    #qa-buttons .faq-info{
+        padding: 30px 25px;
+    }
+    .faq-info p{
+        font-size: 21px;
+    }
 }
 
 @media(max-width:740px){
@@ -479,5 +485,11 @@ footer .lang-select{
     }
     #QA #qa-buttons{
         width: 100vw;
+    }
+    #qa-buttons .faq-info{
+        padding: 25px 20px;
+    }
+    .faq-info p{
+        font-size: 18px;
     }
 }
